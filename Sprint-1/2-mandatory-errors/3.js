@@ -12,4 +12,4 @@ console.log(last4Digits);
 
 
 //It won't run because slice only works with arrays and strings. It doesn't work on integers.
-//Since the slice only works with arrays and strings, I did convert into a string before getting the last 4 digits. 
+//Since the slice only works with arrays and strings, I did convert it into a string before getting the last 4 digits. 
