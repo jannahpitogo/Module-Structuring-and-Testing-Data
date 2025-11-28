@@ -38,5 +38,8 @@ console.log(`£${pounds}.${pence}`);
    >>>  it will start at index 0 and end at the variable length which is 3 and will less 2 based on the expression. 
    >>>  then the answer will be 3 and it will be stored inside the variable pounds. */
 /* 14-16. In here there's two functions that will happen. First one is the getting the substring of the variable
-   >>>  paddedPenceNumberString which the start index will be the length of that same variable which is 399 which is 3 less 2 and the start will be 1. 
-   >>>  then getting the padEnd of the answer from the first function. With length of 2 and will add 0, I think there 
+   >>>  paddedPenceNumberString which the start index will be the length of that same variable which is 399 which is 3 less 2 and the start will be 1.
+   >>>  If you can see there's no value for the end of the substring, it will go over the end. 
+   >>>  then getting the padEnd of the answer from the first function. With index 2 we will add 0, which will not happen because the length of the 
+   >>>  variable is only 2 so we can't add 0. So the answer will be 99. */
+// 18. console.log(`£${pounds}.${pence}`): This just means to print the template with the variables pounds and pence. 
