@@ -3,18 +3,24 @@
 
 // this function should square any number but instead we're going to get an error
 
-// =============> write your prediction of the error here
+// The error is that inside the function square it should be a variable not the value itself. Aside from there
+// should be a function call for the function to run. 
 
-function square(3) {
-    return num * num;
-}
+// function square(3) {
+//     return num * num;
+// }
 
-// =============> write the error message here
+// The error was a SyntaxError: Unexpected Number
 
-// =============> explain this error message here
+// This means that there is something wrong in the syntax of the function where there is an unexpected number in the expression. 
+// where it should be an identifier | variable name. 
 
 // Finally, correct the code to fix the problem
 
-// =============> write your new code here
+function square(num) {
+    return num * num;
+}
+
+square(8);
 
 
