@@ -14,3 +14,11 @@
 // You will need to come up with an appropriate name for the function
 // Use the MDN string documentation to help you find a solution
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
+
+function TO_SNAKE_CASE(string_name) {
+    const upper_case = string_name.toUpperCase();
+    const RESULT = upper_case.split(" ");
+    console.log(RESULT.join("_"));
+}
+
+TO_SNAKE_CASE("hi I am Jannah"); // sample function call 
