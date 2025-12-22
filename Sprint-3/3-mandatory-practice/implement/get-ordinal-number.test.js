@@ -10,4 +10,7 @@ const getOrdinalNumber = require("./get-ordinal-number");
 
 test("should return '1st' for 1", () => {
     expect(getOrdinalNumber(1)).toEqual("1st");
+    expect(getOrdinalNumber(6)).toEqual("6th");
+    expect(getOrdinalNumber(2)).toEqual("2nd");
+    expect(getOrdinalNumber(3)).toEqual("3rd");
     });
