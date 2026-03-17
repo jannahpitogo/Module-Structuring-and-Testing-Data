@@ -8,7 +8,7 @@
 
 function toPounds(penceString) {
     const ifNumber = penceString.toString(); // I added this in case the input is a number. 
-    const penceStringWithoutTrailingP = ifNumber.substring(0,ifNumber.length - 1);
+    const penceStringWithoutTrailingP = ifNumber.substring(0, ifNumber.length - 1);
     const paddedPenceNumberString = penceStringWithoutTrailingP.padStart(3, "0");
     const pounds = paddedPenceNumberString.substring(0,paddedPenceNumberString.length - 2);
 
